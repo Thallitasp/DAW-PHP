@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  margin: 0px;
+}
+
+#success_message{ display: none;}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  background-color: #CFCFCF;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+h3{
+  text-align: center;
+  padding: 15px 0px 0px 15px;
+}
+
+.botao{
+  text-align: center;
+}

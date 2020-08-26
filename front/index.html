@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="acoes.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+  <div class="container">
+    <div class ="box">
+    <form class="well form-horizontal" action="" method="post"  id="contact_form">
+
+      <legend><h3><b>Questionário</b></h3></legend><br>
+
+      <div class="row"> 
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Nome</label>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="nome" placeholder="nome" class="form-control"  type="text">
+          </div>
+        </div>
+
+        
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Sobrenome</label> 
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="sobrenome" placeholder="sobrenome" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="form-group">
+            <label>Username</label>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="user_name" placeholder="Username" class="form-control" type="text">
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="form-group">
+            <label>E-mail</label>  
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="email" placeholder="email@email.com" class="form-control"  type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Senha</label> 
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="user_password" placeholder="senha" class="form-control"  type="password">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Confirmar Senha</label> 
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="confirm_password" placeholder="senha" class="form-control" type="password">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label">Número para contado</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+        <input name="contact_no" placeholder="(XX) XXXXX-XXXX" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-success" role="alert" id="success_message">Sucesso <i class="glyphicon glyphicon-thumbs-up"></i> Sucesso!</div>
+
+      <div class="botao">
+        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">ENVIAR</button>
+      </div>
+    </form>
+    </div>
+  </div>
+<footer>
+  <p>Exercício 3DAW - FAETERJ-RIO</p>
+</footer>
+</body>
+</html>
